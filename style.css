@@ -1,0 +1,72 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+header{
+    background-color:#2D25A0 ;
+    height: 650px;
+    padding-top: 42px;
+}
+.heading-item{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#headline{
+    color: white;
+    font-size: 70px;
+    width: 485px;
+}
+
+/* .flexible{
+    display: flex;
+    padding: 0px;
+    background-color:#2D25A0; */
+}
+.intro{
+    padding: 25px 20px;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+#head-image{
+    
+    width: 556px;
+    height:438px ;
+}
+.button{
+        background-color: #E02C6D;
+        text-decoration: none;
+        padding: 10px 12px;
+        border-radius: 0px;
+        font-size: 20px;
+        margin-left: 0%;
+        color:#FFFFFF;
+}
+.grid{
+    display: grid; 
+    grid-template-columns:repeat(3, 1fr); 
+    grid-gap: 1.5rem;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    
+}
+.player-info {
+    width:330px ;
+    height:474px ;
+    padding: 15px;
+    box-shadow: 0px 0px 50px -10px black;
+
+}
+.player-info img{
+    width: 100%;
+
+}
+.scond-part{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
